@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPF_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="528.523" Width="842.282">
+    <Grid Background="#FFE2DAFF" Margin="0,0,-8,-5">
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="108,161,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FF616FFF"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="29" Margin="219,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Background="#FFB7F5FF" Foreground="Black"/>
+        <Label Content="Address:" HorizontalAlignment="Left" Margin="108,229,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FF5665FF"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="29" Margin="219,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Background="#FFB4FFC5"/>
+        <Label Content="ZipCode:" HorizontalAlignment="Left" Margin="108,299,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FF3B4DFF"/>
+        <TextBox x:Name="txtZipCode" HorizontalAlignment="Left" Height="29" Margin="219,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Background="#FFF2FFC7"/>
+        <Label Content="KATIE IS COOL" HorizontalAlignment="Left" Margin="160,34,0,0" VerticalAlignment="Top" FontSize="72" FontFamily="Segoe UI Black" Foreground="#FF8993F9"/>
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="108,386,0,0" VerticalAlignment="Top" Width="258" Height="74" FontSize="36" Background="#FFCCCCFF" Foreground="#FF74B9FF" FontFamily="Segoe UI Black" BorderBrush="#FFABBAFF" Click="btnSubmit_Click" IsDefault="True"/>
+        <ListBox x:Name="lstentry" HorizontalAlignment="Left" Height="297" Margin="452,163,0,0" VerticalAlignment="Top" Width="317" Background="#FFC2DBFF"/>
+
+    </Grid>
+</Window>
